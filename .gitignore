@@ -1,0 +1,29 @@
+# WordPress
+wp-content/uploads/
+wp-content/cache/
+
+# environment configuration files
+.env
+!.env.example
+
+# data and volume directories
+db_data/
+volumes/
+
+# sensitive information
+wp-config.php
+*.pem
+*.crt
+*.key
+
+# backup files
+*.sql
+*.sql.gz
+*.zip
+
+# system files
+.DS_Store
+Thumbs.db
+
+# logs
+*.log 
